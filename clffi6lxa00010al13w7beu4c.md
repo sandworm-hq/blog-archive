@@ -5,7 +5,7 @@ seoDescription: "With Sandworm Audit, you're now able to take ownership of your 
 datePublished: Sun Mar 19 2023 14:38:35 GMT+0000 (Coordinated Universal Time)
 cuid: clffi6lxa00010al13w7beu4c
 slug: the-better-npm-audit
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679140680190/2997bfe9-7795-48a7-b1bf-9e0d4a12ebb7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679402469401/01d4b4c4-365e-43c8-8459-de95e50b5fdf.jpeg
 tags: javascript, security, command-line, license, compliance
 
 ---
