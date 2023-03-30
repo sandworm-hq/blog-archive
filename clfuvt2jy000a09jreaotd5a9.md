@@ -12,7 +12,7 @@ tags: security, seo, npm, spam
 
 %[https://datawrapper.dwcdn.net/ZkWKj/2/] 
 
-Out of the ~320k new npm packages or versions that Sandworm has scanned over the past week, at least ~185k were labeled as SEO spam. **Just in the last hour as of writing this article, 1583 new e-book spam packages have been published.**
+Out of the ~320k new npm packages or versions that [Sandworm](https://sandworm.dev) has scanned over the past week, at least ~185k were labeled as SEO spam. **Just in the last hour as of writing this article, 1583 new e-book spam packages have been published.**
 
 All the identified spam packages are currently live on [npmjs.com](https://www.npmjs.com/).
 
@@ -46,7 +46,7 @@ A new trend is fake packages promising free Fortnite V-Bucks. These usually take
 
 We're in the process of reporting all of the identified spam packages to npm. We suspect this is only the tip of the iceberg since we've been able to identify many packages that have been live in the npm repo for years (like `uyo-xint`). We'll have a deep look into spam across the entire registry in a future blog post.
 
-Sandworm continuously monitors the npm registry. We post updates and investigate new software supply-chain threats as soon as we identify them. Like, follow, and subscribe to our newsletter for more!
+[Sandworm](https://sandworm.dev) continuously monitors the npm registry. We post updates and investigate new software supply-chain threats as soon as we identify them. Like, follow, and subscribe to our newsletter for more!
 
 And keep your JavaScript project safe with Sandworm 👇
 
