@@ -3,7 +3,7 @@ title: "One In Two New Npm Packages Is SEO Spam Right Now"
 datePublished: Thu Mar 30 2023 08:56:30 GMT+0000 (Coordinated Universal Time)
 cuid: clfuvt2jy000a09jreaotd5a9
 slug: one-in-two-new-npm-packages-is-seo-spam-right-now
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/mRgffV3Hc6c/upload/e661bbe452eb98b4b8aedec8fb752469.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680171463954/6154fb15-a996-4c1a-b61a-af5dfe1db606.jpeg
 tags: security, seo, npm, spam
 
 ---
