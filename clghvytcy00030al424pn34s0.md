@@ -107,7 +107,7 @@ Here is a breakdown of what the command above does:
 
 `alicov` was live for about a month in 2018 and published 15 versions in total. It used a convoluted install script to mask its malicious intents:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558950420/34510000-9bbd-4aec-83dd-9102675fbf21.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681559108745/5eb68d65-6a07-42c1-bcc5-933f6c9e6cdc.png align="center")
 
 This Python script defines a lambda function that performs a malicious action, specifically requesting a potentially dangerous URL. The lambda function is defined using a nested `__contextlib.nested()` function, which creates a context manager to handle the cleanup of resources.
 
