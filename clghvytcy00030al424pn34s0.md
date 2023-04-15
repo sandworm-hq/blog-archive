@@ -131,7 +131,7 @@ After that, the script prints a message indicating that it is a fake package and
 
 While researching this article, it was easy to identify many packages that have declared malicious install scripts directly in their `package.json` manifest. However, that is a naive approach, and most malware does a much better job of hiding and obfuscating sensitive code. **Around 700k package versions in the npm registry currently declare install scripts, and could thus execute code that compromises the security of your dev machine, or your CI build.** More are added every day.
 
-To mitigate this risk, it's important for JavaScript developers to carefully review the install scripts of the packages they use and to only install packages from trusted sources. Developers should also consider using tools like `sandworm audit` to identify any security vulnerabilities in their dependencies and stay up to date with security updates.
+To mitigate this risk, it's important for JavaScript developers to carefully review the install scripts of the packages they use and to only install packages from trusted sources. Developers should also consider using tools like [`sandworm audit`](https://blog.sandworm.dev/the-better-npm-audit) to [identify any security vulnerabilities in their dependencies](https://blog.sandworm.dev/the-better-npm-audit) and stay up to date with security updates.
 
 **If you enjoyed this article, have a look at Sandworm to keep your JavaScript project safe!** 👇
 
