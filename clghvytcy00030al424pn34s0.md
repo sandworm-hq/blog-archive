@@ -4,7 +4,7 @@ datePublished: Sat Apr 15 2023 11:19:40 GMT+0000 (Coordinated Universal Time)
 cuid: clghvytcy00030al424pn34s0
 slug: dissecting-npm-malware-five-packages-and-their-evil-install-scripts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681505716757/f9300297-02c9-4ab7-a7b8-ecf064eb12e9.png
-tags: security, audit, npm, malware, install-scripts
+tags: javascript, security, audit, npm, malware
 
 ---
 
