@@ -8,6 +8,8 @@ tags: lambda, netlify, static-website, eleventy, lambdaedge
 
 ---
 
+%%[promo] 
+
 [Eleventy](https://11ty.dev) is great. It’s a static site generator written in JavaScript, for “*Fast Builds and even Faster Web Sites.*” It’s 10 to 20 times faster than the alternatives, like [Gatsby](https://www.gatsbyjs.com/) or [Next.js](https://nextjs.org/). You get all of your content statically rendered and ready to be CDN-delivered. You needn’t worry about server-side rendering to get those pretty [social share unfurls](https://socialsharepreview.com/). And, if you have a large data set, that’s great — Eleventy can [generate tens of thousands of pages](https://github.com/11ty/eleventy/issues/2226) with no issues.
 
 ### But what if you have a HUGE data set?
@@ -299,5 +301,3 @@ All of [Sandworm’s npm package report pages](https://sandworm.dev/npm/package/
     
 
 ![https://sandworm.dev](https://cdn-images-1.medium.com/max/2000/1*t3IsqAZ5SLjQ_qYVc6zEEw.png align="center")
-
-%%[promo]
