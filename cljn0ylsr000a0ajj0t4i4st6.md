@@ -8,6 +8,8 @@ tags: javascript, opensource, nodejs, npm
 
 ---
 
+> This article is part of the [State Of Npm 2023](https://blog.sandworm.dev/series/state-of-npm-2023) series. In this series, the Sandworm team delves deep into the current state of npm, unearthing fascinating statistics and unveiling intriguing facts about the registry.
+
 In the vast landscape of software development, one name has become synonymous with the JavaScript ecosystem: [**npm**](http://npmjs.com/).
 
 As the package manager of choice for millions of developers worldwide, npm has played a pivotal role in revolutionizing the way we build and share JavaScript code. With its expansive registry housing an ever-growing collection of packages, npm has become an indispensable tool, fueling innovation and empowering developers to create remarkable applications with ease.
