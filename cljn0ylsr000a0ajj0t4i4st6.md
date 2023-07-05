@@ -50,7 +50,7 @@ The chart below provides a comprehensive overview of the npm registry's growth a
 
 Analyzing the data reveals that spam packages, although present throughout the registry's history, experienced a sharp rise during this period. This information highlights the evolving landscape of npm and the challenges faced in maintaining the integrity of the registry.
 
-%[https://datawrapper.dwcdn.net/tE2GY/1/] 
+<iframe id="datawrapper-chart-tE2GY" src="https://datawrapper.dwcdn.net/tE2GY/1/" style="width:0;min-width:100%;border:none" height="425"></iframe>
 
 ### 📈 Versions Published Per Month
 
