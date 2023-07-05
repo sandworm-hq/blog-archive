@@ -8,7 +8,7 @@ tags: javascript, opensource, nodejs, npm
 
 ---
 
-> This article is part of the [State Of Npm 2023](https://blog.sandworm.dev/series/state-of-npm-2023) series. In this series, the Sandworm team delves deep into the current state of npm, unearthing fascinating statistics and unveiling intriguing facts about the registry.
+> **This article is part of the** [**State Of Npm 2023**](https://blog.sandworm.dev/series/state-of-npm-2023) **series. In this series, the Sandworm team delves deep into the current state of npm, unearthing fascinating statistics and unveiling intriguing facts about the registry.**
 
 In the vast landscape of software development, one name has become synonymous with the JavaScript ecosystem: [**npm**](http://npmjs.com/).
 
