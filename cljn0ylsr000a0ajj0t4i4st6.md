@@ -100,13 +100,13 @@ The "keywords" field in the `package.json` file plays an essential role in organ
 
 The `repository` field in a package manifest provides valuable information about the package's source code repository, allowing users to review the code, contribute to the project, or report issues.
 
+<iframe id="datawrapper-chart-mTS9V" src="https://datawrapper.dwcdn.net/mTS9V/1/" style="width:0;min-width:100%;border:none" height="700"></iframe>
+
 ### #️⃣ Packages with no defined repository: 1,716,770
 
 If an npm package does not declare its repository in the manifest file (`package.json`), it can raise concerns about the package's reliability and trustworthiness. Without this information, it becomes challenging to assess the package's quality, maintainability, and community support.
 
 While the absence of a repository declaration does not necessarily indicate that a package is unsafe, it can make it more difficult to evaluate its legitimacy and security. It is generally recommended to use packages that provide clear and transparent information about their source code repository. This enables users to have greater visibility into the package's development process, codebase, and community involvement, which are crucial factors in assessing the reliability and safety of an npm package.
-
-<iframe id="datawrapper-chart-mTS9V" src="https://datawrapper.dwcdn.net/mTS9V/1/" style="width:0;min-width:100%;border:none" height="700"></iframe>
 
 ### 📋 Most Popular Packages With No Specified Repo
 
