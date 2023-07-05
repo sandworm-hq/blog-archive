@@ -126,4 +126,4 @@ Many of the packages in the list above have simply forgotten or disregarded addi
 > 
 > ![](https://cdn-images-1.medium.com/max/2120/1*JvTQJzapGNSSCKWQi89hCA.gif align="left")
 
-### **%%\[datawrapper\]**
+%%[datawrapper]
