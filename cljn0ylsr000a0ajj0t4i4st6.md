@@ -106,7 +106,7 @@ If an npm package does not declare its repository in the manifest file (`package
 
 While the absence of a repository declaration does not necessarily indicate that a package is unsafe, it can make it more difficult to evaluate its legitimacy and security. It is generally recommended to use packages that provide clear and transparent information about their source code repository. This enables users to have greater visibility into the package's development process, codebase, and community involvement, which are crucial factors in assessing the reliability and safety of an npm package.
 
-<iframe id="datawrapper-chart-mTS9V" src="https://datawrapper.dwcdn.net/mTS9V/1/" style="width:0;min-width:100%;border:none" height="533"></iframe>
+<iframe id="datawrapper-chart-mTS9V" src="https://datawrapper.dwcdn.net/mTS9V/1/" style="width:0;min-width:100%;border:none" height="700"></iframe>
 
 ### 📋 Most Popular Packages With No Specified Repo
 
