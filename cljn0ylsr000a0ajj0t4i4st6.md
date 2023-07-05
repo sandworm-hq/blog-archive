@@ -56,9 +56,7 @@ Analyzing the data reveals that spam packages, although present throughout the r
 
 The chart below closely follows the number of created packages, but shows an exponential rather than linear growth, as new versions are constantly being uploaded even for old packages.
 
-<iframe class="desktop-only" width="800" height="500" src="https://lookerstudio.google.com/embed/reporting/b93b1f56-86ee-4bfc-9ac8-18d94c840dea/page/WylQD" style="border:0"></iframe>
-
-<iframe class="mobile-only" width="370" height="600" src="https://lookerstudio.google.com/embed/reporting/aefd1410-0809-4a53-86e9-760973f84c13/page/WylQD" style="border:0"></iframe>
+<iframe id="datawrapper-chart-SBg7d" src="https://datawrapper.dwcdn.net/SBg7d/1/" style="width:0;min-width:100%;border:none" height="400"></iframe>
 
 ---
 
@@ -88,9 +86,7 @@ While smaller packages are generally preferred due to their efficiency and faste
 
 ### 📈 Uploaded Size Per Month
 
-<iframe class="desktop-only" width="800" height="550" src="https://lookerstudio.google.com/embed/reporting/5530802a-1355-4479-a79b-2ae487122f98/page/1PbTD" style="border:0"></iframe>
-
-<iframe class="mobile-only" width="370" height="600" src="https://lookerstudio.google.com/embed/reporting/6782e5ec-cfdc-4457-9d22-05599e4ef425/page/1PbTD" style="border:0"></iframe>
+<iframe id="datawrapper-chart-SpO33" src="https://datawrapper.dwcdn.net/SpO33/1/" style="width:0;min-width:100%;border:none" height="400"></iframe>
 
 ---
 
@@ -98,9 +94,7 @@ While smaller packages are generally preferred due to their efficiency and faste
 
 The "keywords" field in the `package.json` file plays an essential role in organizing and categorizing npm packages. It allows developers to specify a list of relevant keywords that describe the package's functionality, purpose, or domain. These keywords act as metadata, providing valuable information to users and facilitating package discovery. When publishing a package to the npm registry, the keywords help users find it more easily by searching for specific terms related to their requirements.
 
-<iframe class="desktop-only" width="800" height="600" src="https://lookerstudio.google.com/embed/reporting/1fb9b1db-d8f3-4a53-88f7-3702fc5e2562/page/iabTD" style="border:0"></iframe>
-
-<iframe class="mobile-only" width="370" height="600" src="https://lookerstudio.google.com/embed/reporting/45e18eb6-8ad1-44e2-a71e-31de4b6e75e2/page/iabTD" style="border:0"></iframe>
+<iframe id="datawrapper-chart-rdWmT" src="https://datawrapper.dwcdn.net/rdWmT/1/" style="width:0;min-width:100%;border:none" height="899"></iframe>
 
 ### 📈 Most Popular Repos
 
