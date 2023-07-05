@@ -110,7 +110,7 @@ While the absence of a repository declaration does not necessarily indicate that
 
 ### 📋 Most Popular Packages With No Specified Repo
 
-<iframe id="datawrapper-chart-P3CWh" src="https://datawrapper.dwcdn.net/P3CWh/1/" style="width:0;min-width:100%;border:none" height="942"></iframe>
+<iframe id="datawrapper-chart-P3CWh" src="https://datawrapper.dwcdn.net/P3CWh/1/" style="width:0;min-width:100%;border:none" height="820"></iframe>
 
 Many of the packages in the list above have simply forgotten or disregarded adding repository info to their manifest file, but for some, the missing repo is indicative of deeper issues. We've written about the `https` package before here:
 
